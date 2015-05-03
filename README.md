@@ -1,6 +1,17 @@
 # meduz-gulpfile
 This is my personal Gulpfile, to use with [Gulp](http://gulpjs.com/) things.
 
+## Features
+* Live reload
+* SASS with Autoprefixer & Sourcemaps
+* JS Minifier & Concatenation
+* HTML Minifier
+* Also: copy fonts, PHP, sounds
+* Image minifier (*jpeg*, *png*, *gif*, *svg*).
+* Cache management (still don't know how it works, but it does)
+* Gulp don't stop on errors (thanks to Plumber)
+* GUI Notifications
+
 ## File structure
 * package.json
 * gulpfile.js
